@@ -1,0 +1,7 @@
+# C:\wfc\wfc_ui.yaml
+path: C:\wfc\datasets
+train: images/train
+val: images/val
+
+nc: 6
+names: ["Banner", "Footer", "Header", "Main", "Nav", "Supplement"]

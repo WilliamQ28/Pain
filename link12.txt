@@ -1,0 +1,13 @@
+https://www.openwrt.org
+
+https://www.raspberrypi.org
+
+https://www.arduino.cc/en
+
+https://www.qemu.org
+
+https://virt-manager.org
+
+https://www.libvirt.org
+
+https://www.virtualbox.org
