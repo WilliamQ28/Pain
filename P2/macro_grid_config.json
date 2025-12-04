@@ -1,0 +1,13 @@
+{
+  "macro_cols": 12,
+  "tiles_per_macro_col": 3,
+  "tiles_gutter_each_side": 2,
+  "tiles_per_macro_row": 5,
+  "bands": {
+    "Header": { "macro_rows": 1 },
+    "Nav": { "macro_rows": 1 },
+    "Main": { "macro_rows": 10 },
+    "Supplement": { "macro_rows": 2 },
+    "Footer": { "macro_rows": 2 }
+  }
+}
