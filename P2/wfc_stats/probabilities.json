@@ -1,0 +1,87 @@
+{
+  "bands": {
+    "Banner": {
+      "prior": 0.005477610342677758
+    },
+    "Footer": {
+      "prior": 0.025004768318257004
+    },
+    "Header": {
+      "prior": 0.12888177340837098
+    },
+    "Main": {
+      "prior": 0.7640517539482302
+    },
+    "Nav": {
+      "prior": 0.016535295162196595
+    },
+    "Supplement": {
+      "prior": 0.06004879882026741
+    }
+  },
+  "band_heights": {
+    "Banner": {
+      "mean": 76.60810810810811,
+      "p95": 265.5999999999997
+    },
+    "Footer": {
+      "mean": 153.74404761904762,
+      "p95": 368.90000000000015
+    },
+    "Header": {
+      "mean": 706.2433862433862,
+      "p95": 1372.6
+    },
+    "Main": {
+      "mean": 4080.538860103627,
+      "p95": 10339.199999999995
+    },
+    "Nav": {
+      "mean": 91.80645161290323,
+      "p95": 177.25
+    },
+    "Supplement": {
+      "mean": 417.25,
+      "p95": 810.8000000000001
+    }
+  },
+  "type_weights": {
+    "Banner": {
+      "role_button": 0.7000000000000001,
+      "text": 0.20000000000000004,
+      "media": 0.10000000000000002
+    },
+    "Supplement": {
+      "text": 0.4,
+      "media": 0.35,
+      "role_button": 0.15,
+      "select": 0.1
+    },
+    "Header": {
+      "text": 0.35,
+      "media": 0.3,
+      "role_button": 0.3,
+      "input": 0.03,
+      "select": 0.02
+    },
+    "Nav": {
+      "role_button": 0.55,
+      "input": 0.2,
+      "select": 0.2,
+      "text": 0.05
+    },
+    "Footer": {
+      "text": 0.5,
+      "button": 0.35,
+      "role_button": 0.15
+    },
+    "Main": {
+      "text": 0.68,
+      "media": 0.22,
+      "role_button": 0.08,
+      "input": 0.01,
+      "select": 0.01
+    }
+  },
+  "tile_densities": {}
+}

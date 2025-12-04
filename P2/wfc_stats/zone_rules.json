@@ -1,0 +1,66 @@
+{
+  "global": {
+    "tiles_x": 40,
+    "defaults": {
+      "locks": ["lock_y"],
+      "min_col_span": 4,
+      "min_row_span": 2,
+      "max_repeat": 1
+    }
+  },
+
+  "Header": {
+    "zones": [
+      {"id": "logo",        "pattern": "media_single", "min_cols": 4, "max_cols": 6, "min_rows": 1, "max_rows": 1, "locks": ["lock_y"]},
+      {"id": "primary_nav", "pattern": "pill_row",     "min_cols": 14, "max_cols": 24, "min_rows": 1, "max_rows": 1, "locks": ["lock_y"]},
+      {"id": "utilities",   "pattern": "utility_row",  "min_cols": 6, "max_cols": 8, "min_rows": 1, "max_rows": 1, "locks": ["lock_y","align_right"]}
+    ],
+    "layout": {
+      "horizontal": [["logo","primary_nav","utilities"]],
+      "vertical": []
+    }
+  },
+
+  "Nav": {
+    "zones": [
+      {"id": "menu_row",    "pattern": "menu_row",     "min_cols": 28, "max_cols": 40, "min_rows": 1, "max_rows": 1, "locks": ["lock_y"]}
+    ],
+    "layout": {
+      "horizontal": [["menu_row"]],
+      "vertical": []
+    }
+  },
+
+  "Main": {
+    "zones": [
+      {"id": "hero",        "pattern": "hero",         "min_cols": 26, "max_cols": 40, "min_rows": 10, "max_rows": 24, "max_rows_frac": 0.45, "locks": ["lock_y"]},
+      {"id": "content",     "pattern": "card_grid",    "min_cols": 26, "max_cols": 40, "min_rows": 24, "max_rows": 64, "max_rows_frac": 0.85, "locks": ["lock_y"]},
+      {"id": "callouts",    "pattern": "feature_rail", "min_cols": 22, "max_cols": 40, "min_rows": 8,  "max_rows": 24, "max_rows_frac": 0.45, "locks": ["lock_y"]}
+    ],
+    "layout": {
+      "vertical": [["hero"], ["content"], ["callouts"]],
+      "horizontal": []
+    }
+  },
+
+  "Supplement": {
+    "zones": [
+      {"id": "rail",        "pattern": "promo_rail",   "min_cols": 28, "max_cols": 40, "min_rows": 6, "max_rows": 10, "locks": ["lock_y"]}
+    ],
+    "layout": {
+      "vertical": [["rail"]],
+      "horizontal": []
+    }
+  },
+
+  "Footer": {
+    "zones": [
+      {"id": "links_row",   "pattern": "columns",      "min_cols": 28, "max_cols": 40, "min_rows": 8, "max_rows": 12, "locks": ["lock_y"]},
+      {"id": "legal_row",   "pattern": "legal",        "min_cols": 24, "max_cols": 40, "min_rows": 1,  "max_rows": 2,  "locks": ["lock_y"]}
+    ],
+    "layout": {
+      "vertical": [["links_row"], ["legal_row"]],
+      "horizontal": []
+    }
+  }
+}

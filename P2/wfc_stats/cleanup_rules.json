@@ -1,0 +1,44 @@
+{
+  "snap": {
+    "granularity": "L0",
+    "epsilon_px": 2                  
+  },
+
+  "depicket": {
+    "min_cols": 3,
+    "min_rows": 2,
+    "by_band": {
+      "Header":     {"min_rows": 1},
+      "Nav":        {"min_rows": 1},
+      "Main":       {"min_cols": 3, "min_rows": 2},
+      "Supplement": {"min_cols": 3, "min_rows": 2},
+      "Footer":     {"min_cols": 2, "min_rows": 1}
+    }
+  },
+
+  "merge": {
+    "within_same_parent": true,
+    "same_pattern_only": true,
+    "max_gap_cols": 1,
+    "max_gap_rows": 1
+  },
+
+  "media_caps": {
+    "Header":     {"max_count": 1, "max_area_frac": 0.35},
+    "Nav":        {"max_count": 0, "max_area_frac": 0.10},
+    "Main":       {"max_count": 3, "max_area_frac": 0.65},
+    "Supplement": {"max_count": 2, "max_area_frac": 0.50},
+    "Footer":     {"max_count": 1, "max_area_frac": 0.25}
+  },
+
+  "band_limits": {
+    "Header":     {"max_rows": 2},
+    "Nav":        {"max_rows": 2},
+    "Supplement": {"max_rows": 12}
+  },
+
+  "locks": {
+    "respect_lock_y": true,
+    "respect_lock_x": true
+  }
+}
